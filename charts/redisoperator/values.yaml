@@ -89,9 +89,8 @@ affinity: {}
 
 # CRDs configuration
 crds:
-  install: true
-  annotations:
-    argocd.argoproj.io/sync-options: "Replace=true"
-    strategy.spinnaker.io/replace: "true"
+  annotations: []
+    # argocd.argoproj.io/sync-options: "Replace=true"
+    # strategy.spinnaker.io/replace: "true"
 
 priorityClassName: ""
